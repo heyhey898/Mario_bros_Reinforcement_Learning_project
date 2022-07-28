@@ -1,2 +1,31 @@
-# Mario_bros_Reinforcement_Learning_project
-This project incorporates reinforcement learning methods of both Deep Q Network (DQN) and Double Deep Q Network (DDQN) to train an agent in playing the game Super Mario Bros to see if the agent can complete a level with great effectiveness. Super Mario Bros was released for the Nintendo Entertainment System (NES) in 1985. The goal of the game is to control the character Mario from the left of the level to the right so it can reach the flagpole. The player does so while avoiding enemies and obstacles within a limited time and life. Players can also collect items and beat enemies on the way to the flagpole for a higher score. The game consists of 8 worlds with 4 levels in each world [1]. The agent will be trained to complete the first world. To complete a level effectively, the method chosen will be implemented in a way that the agent learns how to complete a level as fast as possible instead of obtaining the highest score.
+## How to run the programme?
+### Packages
+This programme runs with Python 3.8 and Tensorflow 2.8.0. [The OpenAI Gym environment for Super Mario Bros](https://github.com/Kautenja/gym-super-mario-bros) that we used in this programme is made by Christian Kauten.
+
+For installation of Tensorflow 2.8.0, please refer to:
+https://www.tensorflow.org/install/pip#ubuntu
+
+For training with Nvdia GPUs, please refer to:
+https://www.tensorflow.org/install/gpu
+
+The following dependencies and PIP packages are required for this programme:
+```
+apt-get install ffmpeg libsm6 libxext6  -y
+pip3 install gym
+pip3 install gym-super-mario-bros
+pip3 install opencv-python
+```
+
+### Run the programme
+Within this project directory, please run
+```
+python3 main.py
+```
+for training the agent.
+
+
+### plot reward graph
+Within this project directory, please run
+```
+python3 plot_reward_epoch.py
+```
