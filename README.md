@@ -29,3 +29,4 @@ Within this project directory, please run
 ```
 python3 plot_reward_epoch.py
 ```
+https://user-images.githubusercontent.com/86891790/183235052-f69823b4-222f-4ee7-b0cd-aa624e9801b1.mp4
